@@ -32,7 +32,7 @@ def api_status():
     return status
 
 
-# App methods
+# App classes
 # window with choice of graph interval
 class ChoiceWin(tk.Toplevel):
     def __init__(self, master=None):
@@ -114,6 +114,7 @@ class PlotWin(tk.Toplevel):
 
             mplcursors.cursor(plot_prices)
 
+# App methods
 # add cryptocurrency amount to the wallet
 def add_to_wallet():
     global my_wallet
