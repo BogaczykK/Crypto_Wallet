@@ -123,7 +123,7 @@ def add_to_wallet():
 
     try:
         if float(entry_amount.get()) <= 0:
-            label["text"] = "Amount cant be below or equal zero"
+            label["text"] = "Amount can't be below or equal zero"
         else:
             list_of_coins = []
             for coin, val in my_wallet.items():
@@ -242,7 +242,7 @@ def change_wallet():
 
     try:
         if float(entry_amount.get()) < 0:
-            label["text"] = "Amount cant be below or equal zero"
+            label["text"] = "Amount can't be below zero"
         else:
             for coin, val in my_wallet.items():
                 list_of_coins.append(coin)
