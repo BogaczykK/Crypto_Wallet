@@ -31,7 +31,7 @@ Metoda zapisująca obecną zawartość portfela użytkownika do pliku Wallet_fil
 Metoda wczytująca porfel z pliku Wallet_file.json do aplikacji.
 ### walet_value
 Metoda prezentująca wartość portfela użytkownika w USD (dolary amerykańskie). Przedstawia ona również różnicę wartości porfela z wartością wartością porfela 24 godzin temu.
-### Change_wallet
+### change_wallet
 Metoda pozwalająca użytkownikowi na zmianę liczby kryptowaluty w jego porfelu na inną wartość.
 ### Main
 Tworzenie interfejsu graficznego.
