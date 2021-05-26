@@ -3,7 +3,7 @@
 Program napisany w pythonie tworzący funkcjonujący portfel na kryptowaluty. Do pobierania informacji na temat kryptowalut i ich cen użyto CoinGecko API (https://www.coingecko.com/pl/api#explore-api).  
 
 ## Pliki
-### Wallet_App.py
+### Wallet.py
 Plik zawierający całość potrzebnego kodu do poprawnego funkcjonowania portfela.
 ### Wallet_file.json
 Plik json w którym znajdować się będzie zapisany porfel z kryptowalutami użytkownika.
