@@ -1,12 +1,22 @@
 # Crypto_Wallet
-## Description
-Python program of a functioning cryptocurrency wallet
+## Opis
+Program napisany w pythonie tworzący funkcjonujący portfel na kryptowaluty.
 
-## Files
+## Pliki
 ### Wallet_App.py
-File containing all code for a functioning wallet app
+Plik zawierający całość potrzebnego kodu do poprawnego funkcjonowania portfela.
 ### Wallet_file.json
-A json file containing a saved wallet with the amounts of cryptocurrencies in it
+Plik json w którym znajdować się będzie zapisany porfel z kryptowalutami użytkownika.
 
-## Methods
+## Klasy
+### ChoiceWin
+Klasa tworząca okno w którym następuje wybór zakresu czasu prezentowanego na wykresie cen kryptowalut.
+### PlotWin
+Klasa tworząca okno z wykresem zmieny ceny jednej wybranej kryptowaluty w zakresie podanym w klasie **ChoiceWin**.
+
+## Metody
+### crypto_info
+Metoda API, która zwraca plik json z ogólnymi informacjami na temat kryptowaluty (nazwa, cena, itd.).
+### crypto_price_range
+Metoda API, która  zwraca plik json z parami cena kryptowaluty oraz czas w którym kryptowaluta miała podaną cenę. Zakres czasu pobieranych wyrażona w dniach.
 
