@@ -34,5 +34,5 @@ Metoda prezentująca wartość portfela użytkownika w USD (dolary amerykańskie
 ### Change_wallet
 Metoda pozwalająca użytkownikowi na zmianę liczby kryptowaluty w jego porfelu na inną wartość.
 ### Main
-Tworzenie interfejsu graficznego
+Tworzenie interfejsu graficznego.
 
