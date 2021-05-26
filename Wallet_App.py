@@ -12,6 +12,7 @@ from datetime import datetime
 
 matplotlib.use("TkAgg")
 
+
 # API methods
 # information about a cryptocurrency
 def crypto_info(type):
