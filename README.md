@@ -1,2 +1,4 @@
 # Crypto_Wallet
-Wallet for cryptocurrencies
+Python program of a functioning cryptocurrency wallet
+
+# Methods
